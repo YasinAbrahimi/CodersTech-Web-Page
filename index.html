@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodersTech | Innovating for the Future</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 20px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #2575fc;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #6a11cb;
+    }
+    .section p {
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #2575fc;
+      margin-bottom: 10px;
+    }
+    .team-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .member {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .member img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .link-button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #2575fc;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .link-button:hover {
+      background: #1a4db8;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
 
+<header>
+  <h1>CodersTech</h1>
+  <p>Innovating for Sustainability, Learning, and the Future</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#team">Team</a>
+  <a href="#awards">Awards</a>
+  <a href="#how">How It Works</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div id="about" class="section">
+  <h2>About Us</h2>
+  <p>CodersTech is a youth-driven innovation team committed to solving real-world problems through education, environmental solutions, and smart farming tech. We aim to align with global Sustainable Development Goals and bring impact through modern technology.</p>
+</div>
+
+<div id="projects" class="section">
+  <h2>Our Projects</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Tech-E App</h3>
+      <p>An AI-powered learning assistant offering feedback, interactive tools, and adaptive learning pathways for students of all types.</p>
+    </div>
+    <div class="card">
+      <h3>Xplorium</h3>
+      <p>An app encouraging eco-friendly habits with gamified challenges and local environmental events.</p>
+    </div>
+    <div class="card">
+      <h3>Mbot Farming</h3>
+      <p>Automated bot for soil ploughing, seed scattering, and smart crop monitoring — saving time and improving yield.</p>
+    </div>
+    <div class="card">
+      <h3>Weather Finder</h3>
+      <p>Hyper-local weather updates, notifications, and suggestions to stay safe and plan smarter every day.</p>
+    </div>
+  </div>
+</div>
+
+<div id="team" class="section">
+  <h2>Meet the Team</h2>
+  <div class="team-gallery">
+    <div class="member">
+      <img src="team/yasin.jpg" alt="Yasin Abrahimi" />
+      <h3>Yasin Abrahimi</h3>
+      <p>Lead Developer & Project Manager</p>
+    </div>
+    <div class="member">
+      <img src="team/abdul.jpg" alt="Abdul Rehman" />
+      <h3>Abdul Rehman</h3>
+      <p>App Developer & UX Designer</p>
+    </div>
+    <div class="member">
+      <img src="team/aadi.jpg" alt="Aadi Sreehari" />
+      <h3>Aadi Sreehari</h3>
+      <p>AI & Data Scientist</p>
+    </div>
+    <div class="member">
+      <img src="team/hamis.jpg" alt="Muhammad Hamis" />
+      <h3>Muhammad Hamis</h3>
+      <p>Project Coordinator</p>
+    </div>
+    <div class="member">
+      <img src="team/aditya.jpg" alt="Aditya Mishra" />
+      <h3>Aditya Mishra</h3>
+      <p>Research & Scientific Strategist</p>
+    </div>
+  </div>
+</div>
+
+<div id="awards" class="section">
+  <h2>Awards</h2>
+  <ul>
+    <li>🏆 1st Place – Ryan Info-Fest 2023 (Tech-E App)</li>
+    <li>🏅 Top 10 in Mbot Farming Innovation</li>
+    <li>🌿 Finalist – ADNOC STEM NetZero (Xplorium)</li>
+    <li>🥇 1st Place – SSIS Science Fest (EcoFlow Project)</li>
+  </ul>
+</div>
+
+<div id="how" class="section">
+  <h2>How Our Team Works</h2>
+  <p>Want to know how CodersTech manages innovation, research, and implementation?</p>
+  <a href="https://yasinabrahimi.github.io/How-it-works/" class="link-button" target="_blank">See How It Works</a>
+</div>
+
+<div id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Email: <strong>coderstech42@gmail.com</strong></p>
+</div>
+
+<footer>
+  <p>&copy; 2024 CodersTech. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
